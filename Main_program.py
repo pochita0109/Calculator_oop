@@ -23,5 +23,8 @@ if user_operation == 2:
     difference = calcu.subtraction(first_number, second_number)
     ui.print_difference(difference)
 # If multiplication:
+if user_operation == 3:
+    product = calcu.multiplication(first_number, second_number)
+    ui.print_product(product)
 # If division:
 # Ask the user if they want to try again

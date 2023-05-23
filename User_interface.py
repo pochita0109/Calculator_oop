@@ -29,3 +29,6 @@ class UserInterface:
 
     def print_difference(self, difference):
         print("The difference is " + str(difference))     
+
+    def print_product(self, product):
+        print("The product is " + str(product))
