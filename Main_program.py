@@ -27,4 +27,7 @@ if user_operation == 3:
     product = calcu.multiplication(first_number, second_number)
     ui.print_product(product)
 # If division:
+if user_operation == 4:
+    quotient = calcu.division(first_number, second_number)
+    ui.print_quotient(quotient)
 # Ask the user if they want to try again

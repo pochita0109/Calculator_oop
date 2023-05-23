@@ -32,3 +32,6 @@ class UserInterface:
 
     def print_product(self, product):
         print("The product is " + str(product))
+
+    def print_quotient(self, quotient):
+        print("The quotient is " + str(quotient))

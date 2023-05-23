@@ -11,3 +11,12 @@ class calculator:
     def multiplication(self, first_number, second_number):
         product = first_number * second_number
         return product
+    
+    def division(self, first_number, second_number):
+        while True:
+            try:
+                quotient = first_number / second_number
+                return quotient
+            except ZeroDivisionError:
+                print("ERROR! YOU HAVE ZERO DIVISOR, PLEASE TRY AGAIN")
+                break
