@@ -19,15 +19,17 @@ if user_operation == 1:
     sum = calcu.addition(first_number, second_number)
     ui.print_sum(sum)
 # If subraction:
-if user_operation == 2:
+elif user_operation == 2:
     difference = calcu.subtraction(first_number, second_number)
     ui.print_difference(difference)
 # If multiplication:
-if user_operation == 3:
+elif user_operation == 3:
     product = calcu.multiplication(first_number, second_number)
     ui.print_product(product)
 # If division:
-if user_operation == 4:
+elif user_operation == 4:
     quotient = calcu.division(first_number, second_number)
     ui.print_quotient(quotient)
+else:
+    print("ERROR! CHOOSE FROM 1-4")
 # Ask the user if they want to try again
