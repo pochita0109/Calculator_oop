@@ -35,3 +35,15 @@ class UserInterface:
 
     def print_quotient(self, quotient):
         print("The quotient is " + str(quotient))
+
+    def try_again(self):
+        while True:
+            question = input("Type Y if you want to continue on using the simple calculator or N if not: ")
+            if question.upper() == "Y":
+                return True
+            elif question.upper() == "N":
+                print("THANK YOU FOR USING MY CALCULATOR!")
+                return False
+            else:
+                print("ERROR! CHOOSE FROM Y OR N")
+                continue
