@@ -11,6 +11,7 @@ first_number = ui.input_first()
 # Ask the user to enter the second number
 second_number = ui.input_second()
 # Ask the user about the operation they want to use 
+user_operation = ui.choose_operation()
 # If addition:
 # If subraction:
 # If multiplication:
