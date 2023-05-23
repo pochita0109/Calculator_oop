@@ -25,4 +25,7 @@ class UserInterface:
                 print("ERROR! THE CHARACTER YOU HAVE ENTERED IS INVALID!")
     
     def print_sum(self, sum):
-        print("The sum is " + str(sum))        
+        print("The sum is " + str(sum))   
+
+    def print_difference(self, difference):
+        print("The difference is " + str(difference))     

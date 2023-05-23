@@ -19,6 +19,9 @@ if user_operation == 1:
     sum = calcu.addition(first_number, second_number)
     ui.print_sum(sum)
 # If subraction:
+if user_operation == 2:
+    difference = calcu.subtraction(first_number, second_number)
+    ui.print_difference(difference)
 # If multiplication:
 # If division:
 # Ask the user if they want to try again
