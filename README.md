@@ -15,3 +15,12 @@ Process:
 9. Print the answer.
 10. On the user interface file, create a question where it will ask the user if he/she wants to continue using calculator or not.
 11. If yes (Y), back from the start and if no (N), exit the program.
+
+The output will look like this:
+![346168770_3071466829665446_8611319197589799537_n](https://github.com/pochita0109/Calculator_oop/assets/129735606/7618f637-ffe8-4958-83bb-a2374643e06a)
+
+This is the video demonstration for my program:
+https://drive.google.com/file/d/1Soos5ryrOTyD2YRPf_VDu9Aep8NavSOS/view?usp=sharing
+
+Repository Created: May 20, 2023
+Program Finished: May 23, 2023
