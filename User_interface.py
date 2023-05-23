@@ -23,3 +23,6 @@ class UserInterface:
                 return user_operation
             except ValueError:
                 print("ERROR! THE CHARACTER YOU HAVE ENTERED IS INVALID!")
+    
+    def print_sum(self, sum):
+        print("The sum is " + str(sum))        
