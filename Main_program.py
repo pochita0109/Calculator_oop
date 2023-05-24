@@ -29,7 +29,7 @@ while True:
         quotient = calcu.division(first_number, second_number)
         ui.print_quotient(quotient)
     else:
-        print("ERROR! CHOOSE FROM 1-4")
+        print("\033[91m\033[1mERROR! CHOOSE FROM 1-4")
 
     if not ui.try_again():
         break

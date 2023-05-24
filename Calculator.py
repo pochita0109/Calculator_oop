@@ -18,5 +18,5 @@ class calculator:
                 quotient = first_number / second_number
                 return quotient
             except ZeroDivisionError:
-                print("ERROR! YOU HAVE ZERO DIVISOR, PLEASE TRY AGAIN")
+                print("\033[91m\033[1mERROR! YOU HAVE ZERO DIVISOR, PLEASE TRY AGAIN")
                 break
