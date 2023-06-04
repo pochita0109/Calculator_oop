@@ -4,11 +4,14 @@
 
 from User_interface import UserInterface
 from Calculator import calculator
+from Updated_User_interface import Updated_User_interface
 
 ui = UserInterface()
 calcu = calculator()
+Updated_ui = Updated_User_interface()
 
 while True:
+    name = Updated_ui.name_input()
     first_number = ui.input_first()
     second_number = ui.input_second() 
     user_operation = ui.choose_operation()
