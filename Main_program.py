@@ -18,19 +18,19 @@ while True:
 
     if user_operation == 1:
         sum = calcu.addition(first_number, second_number)
-        ui.print_sum(sum)
+        Updated_ui.print_sum(sum, name)
 
     elif user_operation == 2:
         difference = calcu.subtraction(first_number, second_number)
-        ui.print_difference(difference)
+        Updated_ui.print_difference(difference, name)
 
     elif user_operation == 3:
         product = calcu.multiplication(first_number, second_number)
-        ui.print_product(product)
+        Updated_ui.print_product(product, name)
 
     elif user_operation == 4:
         quotient = calcu.division(first_number, second_number)
-        ui.print_quotient(quotient)
+        Updated_ui.print_quotient(quotient, name)
     else:
         print("\033[91m\033[1mERROR! CHOOSE FROM 1-4")
 
